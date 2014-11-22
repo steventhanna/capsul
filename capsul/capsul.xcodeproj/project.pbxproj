@@ -13,6 +13,11 @@
 		D973D34B1A21441900166902 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D973D34A1A21441900166902 /* Images.xcassets */; };
 		D973D34E1A21441900166902 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D973D34C1A21441900166902 /* LaunchScreen.xib */; };
 		D973D35A1A21441900166902 /* capsulTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D973D3591A21441900166902 /* capsulTests.swift */; };
+		D973D3681A2149DD00166902 /* MKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D973D3631A2149DD00166902 /* MKButton.swift */; };
+		D973D3691A2149DD00166902 /* MKColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D973D3641A2149DD00166902 /* MKColor.swift */; };
+		D973D36A1A2149DD00166902 /* MKLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D973D3651A2149DD00166902 /* MKLayer.swift */; };
+		D973D36B1A2149DD00166902 /* MKTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D973D3661A2149DD00166902 /* MKTableViewCell.swift */; };
+		D973D36C1A2149DD00166902 /* MKTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D973D3671A2149DD00166902 /* MKTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		D973D3531A21441900166902 /* capsulTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = capsulTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D973D3581A21441900166902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D973D3591A21441900166902 /* capsulTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = capsulTests.swift; sourceTree = "<group>"; };
+		D973D3631A2149DD00166902 /* MKButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKButton.swift; sourceTree = "<group>"; };
+		D973D3641A2149DD00166902 /* MKColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKColor.swift; sourceTree = "<group>"; };
+		D973D3651A2149DD00166902 /* MKLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKLayer.swift; sourceTree = "<group>"; };
+		D973D3661A2149DD00166902 /* MKTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKTableViewCell.swift; sourceTree = "<group>"; };
+		D973D3671A2149DD00166902 /* MKTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +100,11 @@
 		D973D3411A21441900166902 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D973D3631A2149DD00166902 /* MKButton.swift */,
+				D973D3641A2149DD00166902 /* MKColor.swift */,
+				D973D3651A2149DD00166902 /* MKLayer.swift */,
+				D973D3661A2149DD00166902 /* MKTableViewCell.swift */,
+				D973D3671A2149DD00166902 /* MKTextField.swift */,
 				D973D3421A21441900166902 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -212,8 +227,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D973D3681A2149DD00166902 /* MKButton.swift in Sources */,
+				D973D36A1A2149DD00166902 /* MKLayer.swift in Sources */,
+				D973D36C1A2149DD00166902 /* MKTextField.swift in Sources */,
 				D973D3461A21441900166902 /* ViewController.swift in Sources */,
 				D973D3441A21441900166902 /* AppDelegate.swift in Sources */,
+				D973D3691A2149DD00166902 /* MKColor.swift in Sources */,
+				D973D36B1A2149DD00166902 /* MKTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
