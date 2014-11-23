@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D930BD6D1A2150A0002FB8EA /* PillManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D930BD6C1A2150A0002FB8EA /* PillManager.swift */; };
+		D930BD6F1A2154E4002FB8EA /* NewPillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D930BD6E1A2154E4002FB8EA /* NewPillViewController.swift */; };
 		D973D3441A21441900166902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D973D3431A21441900166902 /* AppDelegate.swift */; };
 		D973D3461A21441900166902 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D973D3451A21441900166902 /* ViewController.swift */; };
 		D973D3491A21441900166902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D973D3471A21441900166902 /* Main.storyboard */; };
@@ -31,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D930BD6C1A2150A0002FB8EA /* PillManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PillManager.swift; path = ../PillManager.swift; sourceTree = "<group>"; };
+		D930BD6E1A2154E4002FB8EA /* NewPillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPillViewController.swift; sourceTree = "<group>"; };
 		D973D33E1A21441900166902 /* capsul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = capsul.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D973D3421A21441900166902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D973D3431A21441900166902 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,8 +91,10 @@
 		D973D3401A21441900166902 /* capsul */ = {
 			isa = PBXGroup;
 			children = (
+				D930BD6C1A2150A0002FB8EA /* PillManager.swift */,
 				D973D3431A21441900166902 /* AppDelegate.swift */,
 				D973D3451A21441900166902 /* ViewController.swift */,
+				D930BD6E1A2154E4002FB8EA /* NewPillViewController.swift */,
 				D973D3471A21441900166902 /* Main.storyboard */,
 				D973D34A1A21441900166902 /* Images.xcassets */,
 				D973D34C1A21441900166902 /* LaunchScreen.xib */,
@@ -227,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D930BD6D1A2150A0002FB8EA /* PillManager.swift in Sources */,
 				D973D3681A2149DD00166902 /* MKButton.swift in Sources */,
 				D973D36A1A2149DD00166902 /* MKLayer.swift in Sources */,
 				D973D36C1A2149DD00166902 /* MKTextField.swift in Sources */,
@@ -234,6 +241,7 @@
 				D973D3441A21441900166902 /* AppDelegate.swift in Sources */,
 				D973D3691A2149DD00166902 /* MKColor.swift in Sources */,
 				D973D36B1A2149DD00166902 /* MKTableViewCell.swift in Sources */,
+				D930BD6F1A2154E4002FB8EA /* NewPillViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +435,7 @@
 				D973D35F1A21441900166902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D973D3601A21441900166902 /* Build configuration list for PBXNativeTarget "capsulTests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +444,7 @@
 				D973D3621A21441900166902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
